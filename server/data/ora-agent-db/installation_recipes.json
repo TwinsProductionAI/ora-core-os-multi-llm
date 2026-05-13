@@ -1,0 +1,122 @@
+{
+  "id": "ora_installation_recipes",
+  "version": "0.1.0",
+  "recipes": [
+    {
+      "id": "chatgpt_project_or_custom_gpt",
+      "label": "ChatGPT / Custom GPT",
+      "target": "ChatGPT",
+      "install_mode": "project_instructions_and_files",
+      "recommended_packs": [
+        "ora_minimal_core",
+        "ora_skill_pack"
+      ],
+      "steps": [
+        "Creer un Project ou un Custom GPT.",
+        "Coller le kernel ORA dans les instructions.",
+        "Ajouter les fichiers Markdown/JSON comme knowledge files si l'interface le permet.",
+        "Tester avec une demande simple et verifier que les incertitudes restent visibles."
+      ],
+      "notes": [
+        "Ne pas mettre de secrets dans les instructions.",
+        "Pour un usage pro, privilegier les fichiers normalises plutot que les sources brutes."
+      ]
+    },
+    {
+      "id": "claude_project",
+      "label": "Claude Project",
+      "target": "Claude",
+      "install_mode": "project_knowledge",
+      "recommended_packs": [
+        "ora_minimal_core",
+        "ora_json_runtime"
+      ],
+      "steps": [
+        "Creer un Project.",
+        "Ajouter les fichiers ORA normalises dans Project Knowledge.",
+        "Placer les regles de gouvernance dans les instructions du projet.",
+        "Tester la restitution des modules et la separation fait/hypothese."
+      ],
+      "notes": [
+        "Eviter les gros fichiers non utiles.",
+        "Preferer les packs par usage client."
+      ]
+    },
+    {
+      "id": "gemini_gem_or_ai_studio",
+      "label": "Gemini Gem / AI Studio",
+      "target": "Gemini",
+      "install_mode": "instructions_and_reference_files",
+      "recommended_packs": [
+        "ora_minimal_core"
+      ],
+      "steps": [
+        "Utiliser AI Studio comme atelier ou creer un Gem.",
+        "Coller les instructions ORA normalisees.",
+        "Ajouter le pack de fichiers si l'environnement le permet.",
+        "Verifier que le runtime final ne depend pas d'une API IA si le projet est un outil deterministe."
+      ],
+      "notes": [
+        "AI Studio peut generer du code, mais l'app ORA Core OS doit rester capable de fonctionner sans dependance Gemini runtime si c'est le choix produit."
+      ]
+    },
+    {
+      "id": "cursor_windsurf_project_rules",
+      "label": "Cursor / Windsurf",
+      "target": "IDE agentic coding",
+      "install_mode": "rules_and_docs",
+      "recommended_packs": [
+        "ora_minimal_core",
+        "ora_platform_base"
+      ],
+      "steps": [
+        "Ajouter les fichiers ORA dans le dossier de documentation du repo.",
+        "Creer ou mettre a jour les rules du projet.",
+        "Pointer les agents vers le catalogue et les packs.",
+        "Verifier que les consignes de securite GitHub sont respectees."
+      ],
+      "notes": [
+        "Ne jamais exposer les dossiers sensibles dans le repo."
+      ]
+    },
+    {
+      "id": "local_llm_rag",
+      "label": "LM Studio / Ollama / Open WebUI / AnythingLLM",
+      "target": "Local LLM",
+      "install_mode": "system_prompt_plus_local_files",
+      "recommended_packs": [
+        "ora_minimal_core",
+        "ora_json_runtime"
+      ],
+      "steps": [
+        "Importer les fichiers normalises comme documents locaux ou collection RAG.",
+        "Placer le kernel ORA en system prompt ou instructions de workspace.",
+        "Indexer uniquement les fichiers publics.",
+        "Tester la recuperation par module, pack et cible LLM."
+      ],
+      "notes": [
+        "La qualite depend du moteur RAG local.",
+        "Conserver le catalogue pour tracer les fichiers utilises."
+      ]
+    },
+    {
+      "id": "generic_llm_manual",
+      "label": "LLM generique",
+      "target": "Any LLM",
+      "install_mode": "manual_prompt_and_files",
+      "recommended_packs": [
+        "ora_minimal_core"
+      ],
+      "steps": [
+        "Lire le pack minimal.",
+        "Coller les instructions principales dans le champ systeme/projet disponible.",
+        "Joindre les fichiers Markdown ou JSON si l'outil accepte des fichiers.",
+        "Si aucun fichier n'est accepte, utiliser le resume du pack minimal."
+      ],
+      "notes": [
+        "Mode universel mais moins robuste que les integrations avec fichiers."
+      ]
+    }
+  ]
+}
+

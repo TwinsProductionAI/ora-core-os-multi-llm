@@ -1,0 +1,88 @@
+﻿{
+    "id":  "ora_agent_modulaire_packs",
+    "version":  "0.1.0",
+    "packs":  [
+                  {
+                      "id":  "ora_minimal_core",
+                      "label":  "ORA Minimal Core",
+                      "description":  "Pack minimal pour installer ORA dans un LLM via instructions systeme/projet.",
+                      "file_ids":  [
+                                       "00_rosetta_md_ora_rosetta_skill_kernel_md",
+                                       "01_kernel_md_ora_master_kernel_md",
+                                       "02_modules_md_ora_core_os_full_doc_md"
+                                   ]
+                  },
+                  {
+                      "id":  "ora_json_runtime",
+                      "label":  "ORA JSON Runtime",
+                      "description":  "Modules JSON pour integration outils, app ou validation schema.",
+                      "file_ids":  [
+                                       "02_modules_json_gpv2_module_mnemosync_normalized_json",
+                                       "02_modules_json_gpv2_rosetta_master_ora_core_os_ultimate_json",
+                                       "02_modules_json_module_arch_plus_json",
+                                       "02_modules_json_module_aura_mxb_json",
+                                       "02_modules_json_module_gibberlink_glyph_json",
+                                       "02_modules_json_module_gpl_json",
+                                       "02_modules_json_module_json_lock_json",
+                                       "02_modules_json_module_primordia_json",
+                                       "02_modules_json_module_respira_json",
+                                       "02_modules_json_module_rime_mirrorcore_json",
+                                       "02_modules_json_ora_core_master_normalized_meta_json",
+                                       "02_modules_json_ora_core_master_registry_normalized_json",
+                                       "02_modules_json_ora_core_profile_master_normalized_json",
+                                       "02_modules_json_rosetta_essence_rag_governor_v1_1_json"
+                                   ]
+                  },
+                  {
+                      "id":  "ora_skill_pack",
+                      "label":  "ORA Skill Pack",
+                      "description":  "Fichiers Skill Markdown pour outils compatibles instructions modulaires.",
+                      "file_ids":  [
+                                       "02_modules_skill_md_skill_gpv2md_primordia_md",
+                                       "02_modules_skill_md_skill_gpv2md_primordia_zip",
+                                       "02_modules_skill_md_skill_gpv2_module_arch_plus_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_module_aura_mxb_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_module_gibberlink_glyph_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_module_gpl_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_module_json_lock_md",
+                                       "02_modules_skill_md_skill_gpv2_module_mnemosync_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_module_primordia_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_module_registry_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_module_respira_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_module_rime_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_profile_master_normalized_md",
+                                       "02_modules_skill_md_skill_gpv2_rosetta_master_normalized_md",
+                                       "02_modules_skill_md_skill_grenaprompt_seq_ora_core_os_ora_ed_md",
+                                       "02_modules_skill_md_skill_ora_core_master_normalized_md",
+                                       "02_modules_skill_md_skill_ora_core_os_project_governance_v2_md",
+                                       "02_modules_skill_md_skill_rag_contracts_v1_1_md",
+                                       "02_modules_skill_md_skill_rag_contracts_md",
+                                       "02_modules_skill_md_skill_reference_lock_md",
+                                       "02_modules_skill_md_skill_rosetta_essence_rag_governor_v1_md",
+                                       "02_modules_skill_md_skill_rosetta_essence_rag_governor_v1_1_md",
+                                       "02_modules_skill_md_skill_eel_ephemeral_essence_lines_md"
+                                   ]
+                  },
+                  {
+                      "id":  "ora_platform_base",
+                      "label":  "ORA Pro Platform Base",
+                      "description":  "Socle GitHub public pour app chatbot deterministe, Academy et Forge.",
+                      "file_ids":  [
+                                       "06_ora_pro_platform_base_env_example",
+                                       "06_ora_pro_platform_base_academy_courses_getting_started_lesson_001_md",
+                                       "06_ora_pro_platform_base_admin_readme_md",
+                                       "06_ora_pro_platform_base_chatbot_flows_onboarding_start_json",
+                                       "06_ora_pro_platform_base_chatbot_intents_welcome_json",
+                                       "06_ora_pro_platform_base_chatbot_responses_welcome_default_md",
+                                       "06_ora_pro_platform_base_client_readme_md",
+                                       "06_ora_pro_platform_base_docs_publication_checklist_md",
+                                       "06_ora_pro_platform_base_docs_security_md",
+                                       "06_ora_pro_platform_base_forge_blueprints_module_minimal_json",
+                                       "06_ora_pro_platform_base_package_json",
+                                       "06_ora_pro_platform_base_readme_md",
+                                       "06_ora_pro_platform_base_schemas_module_schema_json",
+                                       "06_ora_pro_platform_base_scripts_check_json_mjs"
+                                   ]
+                  }
+              ]
+}

@@ -1,0 +1,1024 @@
+﻿{
+    "id":  "ora_agent_modulaire_public_db",
+    "version":  "0.1.0",
+    "generated_at":  "2026-05-12T11:45:13",
+    "source":  "Ora Agent modulaire public files",
+    "excludes":  [
+                     "99_SENSITIVE_LOCAL_ONLY",
+                     "05_PUBLIC_EXPORTS",
+                     "08_AI_STUDIO_APP_AUDIT"
+                 ],
+    "file_count":  101,
+    "files":  [
+                  {
+                      "id":  "gitignore",
+                      "path":  ".gitignore",
+                      "name":  ".gitignore",
+                      "extension":  ".gitignore",
+                      "kind":  "public_asset",
+                      "bytes":  121,
+                      "sha256":  "6675E37D926BAAA78FCC9958F871AADAB66BB9F53E2686B56BB01D130B4EE8D4",
+                      "modified":  "2026-05-12T10:50:38"
+                  },
+                  {
+                      "id":  "00_rosetta_json_ora_rosetta_skill_kernel_json",
+                      "path":  "00_ROSETTA/json/ORA_ROSETTA_SKILL_KERNEL.json",
+                      "name":  "ORA_ROSETTA_SKILL_KERNEL.json",
+                      "extension":  ".json",
+                      "kind":  "rosetta",
+                      "bytes":  1764,
+                      "sha256":  "080AD41435A9E4919C112BF325476CF720CED3D6D6FCF914D31532D043BC7D2E",
+                      "modified":  "2026-05-10T17:50:19"
+                  },
+                  {
+                      "id":  "00_rosetta_md_ora_rosetta_skill_kernel_md",
+                      "path":  "00_ROSETTA/md/ORA_ROSETTA_SKILL_KERNEL.md",
+                      "name":  "ORA_ROSETTA_SKILL_KERNEL.md",
+                      "extension":  ".md",
+                      "kind":  "rosetta",
+                      "bytes":  1117,
+                      "sha256":  "650EE2DDFDCD564F56D04DEDBBD56412D08FFFFB9EB64CD5F22F0E25B49625BB",
+                      "modified":  "2026-05-10T17:50:28"
+                  },
+                  {
+                      "id":  "00_rosetta_text_ora_rosetta_skill_kernel_txt",
+                      "path":  "00_ROSETTA/text/ORA_ROSETTA_SKILL_KERNEL.txt",
+                      "name":  "ORA_ROSETTA_SKILL_KERNEL.txt",
+                      "extension":  ".txt",
+                      "kind":  "rosetta",
+                      "bytes":  865,
+                      "sha256":  "FCEE79A52D0CC82D7751A7307211BA38AA96E029D11022A6F69E55740F4BAE19",
+                      "modified":  "2026-05-10T17:50:44"
+                  },
+                  {
+                      "id":  "00_rosetta_yaml_ora_rosetta_skill_kernel_yaml",
+                      "path":  "00_ROSETTA/yaml/ORA_ROSETTA_SKILL_KERNEL.yaml",
+                      "name":  "ORA_ROSETTA_SKILL_KERNEL.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "rosetta",
+                      "bytes":  1364,
+                      "sha256":  "9A4159D01E23B9EFBEB0861075CB86F5B17D2F9FE0FD5BA2A5977BA41BBDA53D",
+                      "modified":  "2026-05-10T17:50:34"
+                  },
+                  {
+                      "id":  "01_kernel_json_ora_master_kernel_json",
+                      "path":  "01_KERNEL/json/ORA_MASTER_KERNEL.json",
+                      "name":  "ORA_MASTER_KERNEL.json",
+                      "extension":  ".json",
+                      "kind":  "kernel",
+                      "bytes":  2804,
+                      "sha256":  "0D09C0271F7583F41148679077202FA889257B5DA032D9DB106A7C52BEAD681E",
+                      "modified":  "2026-05-10T17:44:10"
+                  },
+                  {
+                      "id":  "01_kernel_md_ora_master_kernel_md",
+                      "path":  "01_KERNEL/md/ORA_MASTER_KERNEL.md",
+                      "name":  "ORA_MASTER_KERNEL.md",
+                      "extension":  ".md",
+                      "kind":  "kernel",
+                      "bytes":  2542,
+                      "sha256":  "034AACC5A8C148D51FD04421957DEC7B3392E3A1BDA2A7261C7FF94087F0F81F",
+                      "modified":  "2026-05-10T17:44:19"
+                  },
+                  {
+                      "id":  "01_kernel_skill_md_skill_md",
+                      "path":  "01_KERNEL/skill_md/SKILL.md",
+                      "name":  "SKILL.md",
+                      "extension":  ".md",
+                      "kind":  "kernel",
+                      "bytes":  3713,
+                      "sha256":  "880F0BB6C47330ACED09DF246BC759D2B31E66A580E764526B4E5E70B589DF8D",
+                      "modified":  "2026-05-10T18:17:57"
+                  },
+                  {
+                      "id":  "01_kernel_text_ora_master_kernel_txt",
+                      "path":  "01_KERNEL/text/ORA_MASTER_KERNEL.txt",
+                      "name":  "ORA_MASTER_KERNEL.txt",
+                      "extension":  ".txt",
+                      "kind":  "kernel",
+                      "bytes":  2418,
+                      "sha256":  "4658FDFF82429224BBD55C9447BA1294BCF0FAC51CDD2E1CE1653F58D2C0C4D6",
+                      "modified":  "2026-05-10T17:44:38"
+                  },
+                  {
+                      "id":  "01_kernel_yaml_ora_master_kernel_yaml",
+                      "path":  "01_KERNEL/yaml/ORA_MASTER_KERNEL.yaml",
+                      "name":  "ORA_MASTER_KERNEL.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "kernel",
+                      "bytes":  2515,
+                      "sha256":  "8D0A97AAF4B4287D01DC82BD90304D5B09B5C81EFDC7DAAE45A11F5234E72366",
+                      "modified":  "2026-05-10T17:44:28"
+                  },
+                  {
+                      "id":  "02_modules_json_gpv2_module_mnemosync_normalized_json",
+                      "path":  "02_MODULES/json/[[GPV2_MODULE_MNEMOSYNC_NORMALIZED]].json",
+                      "name":  "[[GPV2_MODULE_MNEMOSYNC_NORMALIZED]].json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  821,
+                      "sha256":  "0C3F6FB59FE82DBE35A630AA74E062B40F982C28EF8BCD8E016CF174D09C0886",
+                      "modified":  "2026-05-10T17:23:13"
+                  },
+                  {
+                      "id":  "02_modules_json_gpv2_rosetta_master_ora_core_os_ultimate_json",
+                      "path":  "02_MODULES/json/GPV2_ROSETTA_MASTER_ORA_CORE_OS_ULTIMATE.json",
+                      "name":  "GPV2_ROSETTA_MASTER_ORA_CORE_OS_ULTIMATE.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  3073,
+                      "sha256":  "F34723005B7E78F928BBB2F7FD558E6F2AAC46D3184F248B7E8E20AD98ADB7F9",
+                      "modified":  "2026-05-10T17:26:02"
+                  },
+                  {
+                      "id":  "02_modules_json_module_arch_plus_json",
+                      "path":  "02_MODULES/json/MODULE_ARCH_PLUS.json",
+                      "name":  "MODULE_ARCH_PLUS.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  915,
+                      "sha256":  "570DA49CC75E6128682E0AB5EFAC12C478DA2779A0840EE36D00CAB5B99EF15B",
+                      "modified":  "2026-05-10T17:20:03"
+                  },
+                  {
+                      "id":  "02_modules_json_module_aura_mxb_json",
+                      "path":  "02_MODULES/json/MODULE_AURA_MXB.json",
+                      "name":  "MODULE_AURA_MXB.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  787,
+                      "sha256":  "0F9B9C3A6F4BCBE327FB444A70BCD12903D8B66772BE9382224A236A724A4D82",
+                      "modified":  "2026-05-10T17:20:32"
+                  },
+                  {
+                      "id":  "02_modules_json_module_gibberlink_glyph_json",
+                      "path":  "02_MODULES/json/MODULE_GIBBERLINK_GLYPH.json",
+                      "name":  "MODULE_GIBBERLINK_GLYPH.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  5624,
+                      "sha256":  "74B8B57E7450EB5781A3ACDED36B6A3ABD4F4D0C2CFD84DECF11C6473A4ABC19",
+                      "modified":  "2026-05-10T17:21:10"
+                  },
+                  {
+                      "id":  "02_modules_json_module_gpl_json",
+                      "path":  "02_MODULES/json/MODULE_GPL.json",
+                      "name":  "MODULE_GPL.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  1171,
+                      "sha256":  "0039276B5AD976D5745D20FF6BB2AEA58CEE5371D44F6467A97DDD63560FDCCB",
+                      "modified":  "2026-05-10T17:20:38"
+                  },
+                  {
+                      "id":  "02_modules_json_module_json_lock_json",
+                      "path":  "02_MODULES/json/MODULE_JSON_LOCK.json",
+                      "name":  "MODULE_JSON_LOCK.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  1283,
+                      "sha256":  "6AF1E5CFC21DA18BD03BAD265B4CCB2C9C3B0E4F32D952F1DFE93DAD0623CCAC",
+                      "modified":  "2026-05-10T17:21:04"
+                  },
+                  {
+                      "id":  "02_modules_json_module_primordia_json",
+                      "path":  "02_MODULES/json/MODULE_PRIMORDIA.json",
+                      "name":  "MODULE_PRIMORDIA.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  2161,
+                      "sha256":  "749FBDB9A38FBCB188E7F46BC7A291CBED10A8CF9F4E273DA8E985EE752BEBBA",
+                      "modified":  "2026-05-10T17:20:17"
+                  },
+                  {
+                      "id":  "02_modules_json_module_respira_json",
+                      "path":  "02_MODULES/json/MODULE_RESPIRA.json",
+                      "name":  "MODULE_RESPIRA.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  1681,
+                      "sha256":  "27B2A7E5FAE5F3DC2B8BC69C5173A6AE83338309BD9BE76E8B0465CBB1E0A664",
+                      "modified":  "2026-05-10T17:20:56"
+                  },
+                  {
+                      "id":  "02_modules_json_module_rime_mirrorcore_json",
+                      "path":  "02_MODULES/json/MODULE_RIME_MIRRORCORE.json",
+                      "name":  "MODULE_RIME_MIRRORCORE.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  1012,
+                      "sha256":  "86712605783A49402FA1AEAE8CE4C625DD0E1DF0C261C05B45063F90AA398102",
+                      "modified":  "2026-05-10T17:20:25"
+                  },
+                  {
+                      "id":  "02_modules_json_ora_core_master_normalized_meta_json",
+                      "path":  "02_MODULES/json/ORA_CORE_MASTER_NORMALIZED_META.json",
+                      "name":  "ORA_CORE_MASTER_NORMALIZED_META.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  860,
+                      "sha256":  "422D21C55FF0F1FC0045A8928AD7BA000D0101902B1AA2FF08D7DCBA61D2B9B8",
+                      "modified":  "2026-05-10T17:29:16"
+                  },
+                  {
+                      "id":  "02_modules_json_ora_core_master_registry_normalized_json",
+                      "path":  "02_MODULES/json/ORA_CORE_MASTER_REGISTRY_NORMALIZED.json",
+                      "name":  "ORA_CORE_MASTER_REGISTRY_NORMALIZED.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  2371,
+                      "sha256":  "8CEE2B76253557BE412235FB69AA242F4699E430B432A4CE80F27649099F982F",
+                      "modified":  "2026-05-10T17:21:17"
+                  },
+                  {
+                      "id":  "02_modules_json_ora_core_profile_master_normalized_json",
+                      "path":  "02_MODULES/json/ORA_CORE_PROFILE_MASTER_NORMALIZED.json",
+                      "name":  "ORA_CORE_PROFILE_MASTER_NORMALIZED.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  2709,
+                      "sha256":  "67420D4D850E695B7A7FF5FDC66FDCB5561658D1067D468E5881D845614B303B",
+                      "modified":  "2026-05-10T17:25:57"
+                  },
+                  {
+                      "id":  "02_modules_json_rosetta_essence_rag_governor_v1_1_json",
+                      "path":  "02_MODULES/json/Rosetta-Essence-RAG-Governor-v1_1.json",
+                      "name":  "Rosetta-Essence-RAG-Governor-v1_1.json",
+                      "extension":  ".json",
+                      "kind":  "module",
+                      "bytes":  4196,
+                      "sha256":  "D364525C82B7B0873C78C560EC99AA458FA25D1445AFD480F2D389F3CBD19D81",
+                      "modified":  "2026-05-10T21:55:15"
+                  },
+                  {
+                      "id":  "02_modules_md_ora_core_os_full_doc_md",
+                      "path":  "02_MODULES/md/ORA_CORE_OS_FULL_DOC.md",
+                      "name":  "ORA_CORE_OS_FULL_DOC.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  26007,
+                      "sha256":  "54D3C78857AA1951AE4BDB672CD64D679CC0DFC7E3CA3353C9310005BDFE03DE",
+                      "modified":  "2026-05-10T17:33:32"
+                  },
+                  {
+                      "id":  "02_modules_md_rosetta_essence_rag_governor_v1_1_md",
+                      "path":  "02_MODULES/md/Rosetta-Essence-RAG-Governor-v1_1.md",
+                      "name":  "Rosetta-Essence-RAG-Governor-v1_1.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  5608,
+                      "sha256":  "CE6DC34085E91EEF05B630FCA0C7AEAA24F24099CDE57E5AC234EFA86031B46A",
+                      "modified":  "2026-05-10T21:55:44"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2md_primordia_md",
+                      "path":  "02_MODULES/skill_md/SKILL__GPV2MD_PRIMORDIA.md",
+                      "name":  "SKILL__GPV2MD_PRIMORDIA.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  798,
+                      "sha256":  "ED50F6AA00171EF53F6D352DF1916CC280D52CF25F9DB09955F4E9DA3227460B",
+                      "modified":  "2026-05-10T18:32:51"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2md_primordia_zip",
+                      "path":  "02_MODULES/skill_md/SKILL__GPV2MD_PRIMORDIA.zip",
+                      "name":  "SKILL__GPV2MD_PRIMORDIA.zip",
+                      "extension":  ".zip",
+                      "kind":  "module",
+                      "bytes":  667,
+                      "sha256":  "1D8E6B15D9F8A54BCA79320E4D10936C95A39D376B1DC18EFD3B462065362CA2",
+                      "modified":  "2026-05-10T18:35:29"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_arch_plus_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_ARCH_PLUS_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_MODULE_ARCH_PLUS_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  497,
+                      "sha256":  "12D3D07F791C1B782E86AC1C62439D7B6741F25340C93735DE21A680C8E339BD",
+                      "modified":  "2026-05-10T18:29:23"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_aura_mxb_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_AURA_MXB_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_MODULE_AURA_MXB_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  247,
+                      "sha256":  "5C08555697CB135E02D98F43B6DEEA35122D636CD354463D7F2B563D4E076990",
+                      "modified":  "2026-05-10T18:29:29"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_gibberlink_glyph_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_GIBBERLINK_GLYPH_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_MODULE_GIBBERLINK_GLYPH_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  411,
+                      "sha256":  "117264781254575E3A6E3CD95D33A8333684178D4E334F1844B3007388C57BA5",
+                      "modified":  "2026-05-10T18:31:16"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_gpl_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_GPL_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_MODULE_GPL_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  362,
+                      "sha256":  "9D07338815C32EC80B509CD3CB1D42AC1138C3D3A587EE85B53E37F4721B1743",
+                      "modified":  "2026-05-10T18:30:47"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_json_lock_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_JSON_LOCK.md",
+                      "name":  "SKILL_GPV2_MODULE_JSON_LOCK.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  534,
+                      "sha256":  "719925021D3150E753A21D2C8B7B85373764A1510CE91499D26F1206FB7F27AE",
+                      "modified":  "2026-05-10T18:30:39"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_mnemosync_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_MNEMOSYNC_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_MODULE_MNEMOSYNC_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  621,
+                      "sha256":  "E1A1597C94DA5C233AAEA1E95918ADC96CE59E8AE8BDF02913DAEF3A8C4690AD",
+                      "modified":  "2026-05-10T18:30:32"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_primordia_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_PRIMORDIA_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_MODULE_PRIMORDIA_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  466,
+                      "sha256":  "5B873D0701ADBDA01D6B4B2D522A462877D314F3F21BE0712892206A357E49E5",
+                      "modified":  "2026-05-10T18:29:50"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_registry_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_REGISTRY_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_MODULE_REGISTRY_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  413,
+                      "sha256":  "FB02A2BC6AFAFD2096ED96234B015771FE582BD75FA41373EA313BF2BD188CB0",
+                      "modified":  "2026-05-10T18:31:49"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_respira_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_RESPIRA_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_MODULE_RESPIRA_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  434,
+                      "sha256":  "44B06DC224C774E7BFF862F7EEB7257A6AE9C00867B162D8324F47EAF1B3D152",
+                      "modified":  "2026-05-10T18:30:24"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_module_rime_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_MODULE_RIME_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_MODULE_RIME_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  520,
+                      "sha256":  "21BFA079BCE8646A94FD89FFE8DD5960AC04DAAE9ADC5501FBAFE9DCE46BED9A",
+                      "modified":  "2026-05-10T18:30:04"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_profile_master_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_PROFILE_MASTER_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_PROFILE_MASTER_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  300,
+                      "sha256":  "0DE05ACCB0E19855CDF415BCC14CE51680B23C31ADC14AF00258376B46C454A2",
+                      "modified":  "2026-05-10T18:31:28"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_gpv2_rosetta_master_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GPV2_ROSETTA_MASTER_NORMALIZED.md",
+                      "name":  "SKILL_GPV2_ROSETTA_MASTER_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  244,
+                      "sha256":  "3B6F4673C86E82CC224C8A38FD4A2B9C950231C6026E5A5A7765BEE905CC8988",
+                      "modified":  "2026-05-10T18:31:38"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_grenaprompt_seq_ora_core_os_ora_ed_md",
+                      "path":  "02_MODULES/skill_md/SKILL_GRENAPROMPT_SEQ_(ORA_CORE_OS)_ORA_ed.md",
+                      "name":  "SKILL_GRENAPROMPT_SEQ_(ORA_CORE_OS)_ORA_ed.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  366,
+                      "sha256":  "F2F4DC351E2475A9FAF87AF4CBBE15927E4183B4FBD20922B8EBF0AF89CA5ED9",
+                      "modified":  "2026-05-10T18:32:12"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_ora_core_master_normalized_md",
+                      "path":  "02_MODULES/skill_md/SKILL_ORA_CORE_-_MASTER_NORMALIZED.md",
+                      "name":  "SKILL_ORA_CORE_-_MASTER_NORMALIZED.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  371,
+                      "sha256":  "765A8B7732C856745335B9F21062240EFA7A5585956574FD72E510DFD4AEF1BD",
+                      "modified":  "2026-05-10T18:31:58"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_ora_core_os_project_governance_v2_md",
+                      "path":  "02_MODULES/skill_md/SKILL_ORA_CORE_OS_-_Project_Governance_v2.md",
+                      "name":  "SKILL_ORA_CORE_OS_-_Project_Governance_v2.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  465,
+                      "sha256":  "33F1297E89C53F285B4703BA6A4C9988D5A9AC16C0CD7772084ACE0CDE008A2A",
+                      "modified":  "2026-05-10T18:32:05"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_rag_contracts_v1_1_md",
+                      "path":  "02_MODULES/skill_md/SKILL_rag_contracts v1.1.md",
+                      "name":  "SKILL_rag_contracts v1.1.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  3492,
+                      "sha256":  "B785B60BB1BAA9D1CE2A03E062FFC89699818817C6C16693BA769F80FEAC0FF7",
+                      "modified":  "2026-05-10T21:56:56"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_rag_contracts_md",
+                      "path":  "02_MODULES/skill_md/SKILL_rag_contracts.md",
+                      "name":  "SKILL_rag_contracts.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  2996,
+                      "sha256":  "A3BDE6EAD90839F0B95666F2199EC9362B618FCEC5410A8EDED4301B7440F906",
+                      "modified":  "2026-05-10T21:47:19"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_reference_lock_md",
+                      "path":  "02_MODULES/skill_md/SKILL_REFERENCE_LOCK.md",
+                      "name":  "SKILL_REFERENCE_LOCK.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  293,
+                      "sha256":  "B45BBC44D960C3A3D9412B10A9CEC6355553DB9511CFAF8B818FE8FF7F8983BA",
+                      "modified":  "2026-05-10T18:32:23"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_rosetta_essence_rag_governor_v1_md",
+                      "path":  "02_MODULES/skill_md/SKILL_Rosetta-Essence RAG Governor v1.md",
+                      "name":  "SKILL_Rosetta-Essence RAG Governor v1.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  6902,
+                      "sha256":  "10B6F0F373BD01576631EC52851679F2194CE2B6A5F714BC69E46A43CB0FA222",
+                      "modified":  "2026-05-10T21:46:40"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_rosetta_essence_rag_governor_v1_1_md",
+                      "path":  "02_MODULES/skill_md/SKILL_Rosetta-Essence-RAG-Governor-v1_1.md",
+                      "name":  "SKILL_Rosetta-Essence-RAG-Governor-v1_1.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  8735,
+                      "sha256":  "969D19763C4BEADB89D79C8DFFDE732F6D16F6C6D481D326985FA252BC569E17",
+                      "modified":  "2026-05-10T21:56:23"
+                  },
+                  {
+                      "id":  "02_modules_skill_md_skill_eel_ephemeral_essence_lines_md",
+                      "path":  "02_MODULES/skill_md/SKILL_κ.eel_EPHEMERAL_ESSENCE_LINES.md",
+                      "name":  "SKILL_κ.eel_EPHEMERAL_ESSENCE_LINES.md",
+                      "extension":  ".md",
+                      "kind":  "module",
+                      "bytes":  400,
+                      "sha256":  "61B80310F85D9070FA5DD60BC895BECEA7AA64F0FEEFEE82208621E8E8211010",
+                      "modified":  "2026-05-10T18:32:32"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_arch_plus_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_ARCH_PLUS_NORMALIZED]].txt",
+                      "name":  "[[GPV2_MODULE_ARCH_PLUS_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  986,
+                      "sha256":  "CA3C894D2E13FA8A7AEDE8EB08F075AD17DDA0ED1D990FC415EAA07089CF32EF",
+                      "modified":  "2026-03-20T23:53:19"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_aura_mxb_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_AURA_MXB_NORMALIZED]].txt",
+                      "name":  "[[GPV2_MODULE_AURA_MXB_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  852,
+                      "sha256":  "E080959A53547CE7DCE4E473BCA5BD17B1F1139B4A5B502DFE64F1D216F939E8",
+                      "modified":  "2026-03-20T23:53:54"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_gibberlink_glyph_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_GIBBERLINK_GLYPH_NORMALIZED]].txt",
+                      "name":  "[[GPV2_MODULE_GIBBERLINK_GLYPH_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  5386,
+                      "sha256":  "7717C6446EB03C85929B2225EF34D91AAACE41988F6A05CDAC1925890E9D07EF",
+                      "modified":  "2026-03-20T23:55:30"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_gpl_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_GPL_NORMALIZED]].txt",
+                      "name":  "[[GPV2_MODULE_GPL_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  1159,
+                      "sha256":  "D8E57B15D6D241639D8D09574EEB744CE115050130A3202EE42FC5D0A09B0136",
+                      "modified":  "2026-03-20T23:54:37"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_json_lock_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_JSON_LOCK]].txt",
+                      "name":  "[[GPV2_MODULE_JSON_LOCK]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  1354,
+                      "sha256":  "6C199C1F18E4FB46A36C205C50465A7EDEB5B33E79947FD0F3694EACA4AA778A",
+                      "modified":  "2026-03-20T23:49:16"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_mnemosync_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_MNEMOSYNC_NORMALIZED]].txt",
+                      "name":  "[[GPV2_MODULE_MNEMOSYNC_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  869,
+                      "sha256":  "FD449D7D5BE58F30E6F7DB2C26A1E747C3C2A8EF151047165D7428D097E58169",
+                      "modified":  "2026-03-20T23:52:01"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_primordia_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_PRIMORDIA_NORMALIZED]].txt",
+                      "name":  "[[GPV2_MODULE_PRIMORDIA_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  2032,
+                      "sha256":  "FF977A77D3E0DCE6268C97C783F8AE45AA82EEBDD244BD2487F76BA3D44BCDCA",
+                      "modified":  "2026-03-20T23:50:01"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_registry_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_REGISTRY_NORMALIZED]].txt",
+                      "name":  "[[GPV2_MODULE_REGISTRY_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  2108,
+                      "sha256":  "A2CE6AD4E92A9D837DF4BD0AA4182CB233C549E564D505FC879DAFDE2C3DFF97",
+                      "modified":  "2026-03-20T23:56:44"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_respira_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_RESPIRA_NORMALIZED]].txt",
+                      "name":  "[[GPV2_MODULE_RESPIRA_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  1402,
+                      "sha256":  "D21BF542C7B019E630F4DA0CE16810B045B519B4AD13B7773E34FDDF3F61FC2A",
+                      "modified":  "2026-03-20T23:50:54"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_module_rime_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_MODULE_RIME_NORMALIZED]].txt",
+                      "name":  "[[GPV2_MODULE_RIME_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  951,
+                      "sha256":  "CBD1216932D57BAE55E0E0DCD2E840F90F20AAE75BD22BC1BE776257482C02A7",
+                      "modified":  "2026-03-20T23:51:34"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_profile_master_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_PROFILE_MASTER_NORMALIZED]].txt",
+                      "name":  "[[GPV2_PROFILE_MASTER_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  2588,
+                      "sha256":  "DB6DA82D59C56122C023D38F5F5081774E512C503A6CA12BC26023D81EEBBCB4",
+                      "modified":  "2026-03-20T23:47:30"
+                  },
+                  {
+                      "id":  "02_modules_text_gpv2_rosetta_master_normalized_txt",
+                      "path":  "02_MODULES/text/[[GPV2_ROSETTA_MASTER_NORMALIZED]].txt",
+                      "name":  "[[GPV2_ROSETTA_MASTER_NORMALIZED]].txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  3121,
+                      "sha256":  "D1E8AEE35D45696E850F723EFDA915791073509BB215C4690A67955B2BFB8945",
+                      "modified":  "2026-03-20T23:48:18"
+                  },
+                  {
+                      "id":  "02_modules_text_ora_core_master_normalized_txt",
+                      "path":  "02_MODULES/text/ORA_CORE - MASTER NORMALIZED.txt",
+                      "name":  "ORA_CORE - MASTER NORMALIZED.txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  925,
+                      "sha256":  "0DBC0B9465FE0EE9C7E9F387860414979C5E2BC6151513CAAF4198A66A840A5A",
+                      "modified":  "2026-03-20T23:46:45"
+                  },
+                  {
+                      "id":  "02_modules_text_rosetta_essence_rag_governor_v1_1_txt",
+                      "path":  "02_MODULES/text/Rosetta-Essence-RAG-Governor-v1_1.txt",
+                      "name":  "Rosetta-Essence-RAG-Governor-v1_1.txt",
+                      "extension":  ".txt",
+                      "kind":  "module",
+                      "bytes":  5343,
+                      "sha256":  "700B28D574EB5246EE4C77A04F64346A5DE96BD0C5F6AC41F5A2947B1BA2DFE7",
+                      "modified":  "2026-05-10T21:54:53"
+                  },
+                  {
+                      "id":  "02_modules_yaml_gpv2_module_mnemosync_normalized_yaml",
+                      "path":  "02_MODULES/yaml/GPV2_MODULE_MNEMOSYNC_NORMALIZED.yaml",
+                      "name":  "GPV2_MODULE_MNEMOSYNC_NORMALIZED.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  680,
+                      "sha256":  "319FC9818019B22989040BD25527AF727B3F6A345FB2159310730EB165637D70",
+                      "modified":  "2026-05-10T17:38:24"
+                  },
+                  {
+                      "id":  "02_modules_yaml_gpv2_rosetta_master_ora_core_os_ultimate_1_yaml",
+                      "path":  "02_MODULES/yaml/GPV2_ROSETTA_MASTER_ORA_CORE_OS_ULTIMATE (1).yaml",
+                      "name":  "GPV2_ROSETTA_MASTER_ORA_CORE_OS_ULTIMATE (1).yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  2637,
+                      "sha256":  "FF5EBBAB7E18B17374EB0D9F2A41CFCC5E567F28445B72DD080825BD3CA1A76D",
+                      "modified":  "2026-05-10T17:40:56"
+                  },
+                  {
+                      "id":  "02_modules_yaml_gpv2_rosetta_master_ora_core_os_ultimate_yaml",
+                      "path":  "02_MODULES/yaml/GPV2_ROSETTA_MASTER_ORA_CORE_OS_ULTIMATE.yaml",
+                      "name":  "GPV2_ROSETTA_MASTER_ORA_CORE_OS_ULTIMATE.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  2617,
+                      "sha256":  "C0B6EE60CB1C9832D6D14F40C95F6F5882FBBC7594043C3A75B43F1E9A86C247",
+                      "modified":  "2026-05-10T17:39:10"
+                  },
+                  {
+                      "id":  "02_modules_yaml_module_arch_plus_yaml",
+                      "path":  "02_MODULES/yaml/MODULE_ARCH_PLUS.yaml",
+                      "name":  "MODULE_ARCH_PLUS.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  741,
+                      "sha256":  "2A3A004EAB6EC8BA60E5B6851C36AE8291A0549928B490C2C2BB454F2D808DBA",
+                      "modified":  "2026-05-10T17:37:40"
+                  },
+                  {
+                      "id":  "02_modules_yaml_module_aura_mxb_yaml",
+                      "path":  "02_MODULES/yaml/MODULE_AURA_MXB.yaml",
+                      "name":  "MODULE_AURA_MXB.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  628,
+                      "sha256":  "2CD5F7F6372F74243C2C8FA4EF1FF58F3F535266BC9C81BBA92D891B22B44B11",
+                      "modified":  "2026-05-10T17:37:52"
+                  },
+                  {
+                      "id":  "02_modules_yaml_module_gibberlink_glyph_yaml",
+                      "path":  "02_MODULES/yaml/MODULE_GIBBERLINK_GLYPH.yaml",
+                      "name":  "MODULE_GIBBERLINK_GLYPH.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  4594,
+                      "sha256":  "87198CDE3DF612AD7F84ECF88A6B166B3EBD3A65DDFC2F6BF21AF679672366CA",
+                      "modified":  "2026-05-10T17:38:48"
+                  },
+                  {
+                      "id":  "02_modules_yaml_module_gpl_yaml",
+                      "path":  "02_MODULES/yaml/MODULE_GPL.yaml",
+                      "name":  "MODULE_GPL.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  924,
+                      "sha256":  "F8B7577351E5F3535F83729C6CF915BF7ADFED04458C7A7B4FB7A9A29D74E7BA",
+                      "modified":  "2026-05-10T17:38:34"
+                  },
+                  {
+                      "id":  "02_modules_yaml_module_json_lock_yaml",
+                      "path":  "02_MODULES/yaml/MODULE_JSON_LOCK.yaml",
+                      "name":  "MODULE_JSON_LOCK.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  1052,
+                      "sha256":  "6F6F5DB7907D3F62F28E1280A6C35195E70EA11BE0B0205C92FB0E7D2533AF80",
+                      "modified":  "2026-05-10T17:38:41"
+                  },
+                  {
+                      "id":  "02_modules_yaml_module_primordia_yaml",
+                      "path":  "02_MODULES/yaml/MODULE_PRIMORDIA.yaml",
+                      "name":  "MODULE_PRIMORDIA.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  1690,
+                      "sha256":  "E93EFBDB69C33919379CA356969D09954366824672E90E29D2AA74277A471434",
+                      "modified":  "2026-05-10T17:38:11"
+                  },
+                  {
+                      "id":  "02_modules_yaml_module_respira_yaml",
+                      "path":  "02_MODULES/yaml/MODULE_RESPIRA.yaml",
+                      "name":  "MODULE_RESPIRA.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  1254,
+                      "sha256":  "567C771FEB2A948A937EBD7092F0AF60A366D0F7D2782621FCF411E4D154A0CB",
+                      "modified":  "2026-05-10T17:38:17"
+                  },
+                  {
+                      "id":  "02_modules_yaml_module_rime_mirrorcore_yaml",
+                      "path":  "02_MODULES/yaml/MODULE_RIME_MIRRORCORE.yaml",
+                      "name":  "MODULE_RIME_MIRRORCORE.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  814,
+                      "sha256":  "DCB453565AC5F3A413F4523675A9B642AF658DE0162C003B610563B2FCBAFEA7",
+                      "modified":  "2026-05-10T17:38:05"
+                  },
+                  {
+                      "id":  "02_modules_yaml_ora_core_master_manifest_yaml",
+                      "path":  "02_MODULES/yaml/ORA_CORE_MASTER_MANIFEST.yaml",
+                      "name":  "ORA_CORE_MASTER_MANIFEST.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  400,
+                      "sha256":  "A2DBB417DC1DED0B8D403D320CFF1148AEC34450F38ACBD1F47A179ABB9E9EDF",
+                      "modified":  "2026-05-10T17:39:31"
+                  },
+                  {
+                      "id":  "02_modules_yaml_ora_core_master_manifest_v2_yaml",
+                      "path":  "02_MODULES/yaml/ORA_CORE_MASTER_MANIFEST_V2.yaml",
+                      "name":  "ORA_CORE_MASTER_MANIFEST_V2.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  402,
+                      "sha256":  "5A5EA71114D7782FC37C7F4037DB4A6F9B67D0707FB71AB8D3881269C769B40C",
+                      "modified":  "2026-05-10T17:40:49"
+                  },
+                  {
+                      "id":  "02_modules_yaml_ora_core_master_registry_normalized_yaml",
+                      "path":  "02_MODULES/yaml/ORA_CORE_MASTER_REGISTRY_NORMALIZED.yaml",
+                      "name":  "ORA_CORE_MASTER_REGISTRY_NORMALIZED.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  1786,
+                      "sha256":  "15E402C791DEE6C469559BD671FDEB34E4260F3B2ADCE3492ABA8EB502569A31",
+                      "modified":  "2026-05-10T17:38:55"
+                  },
+                  {
+                      "id":  "02_modules_yaml_ora_core_profile_master_normalized_1_yaml",
+                      "path":  "02_MODULES/yaml/ORA_CORE_PROFILE_MASTER_NORMALIZED (1).yaml",
+                      "name":  "ORA_CORE_PROFILE_MASTER_NORMALIZED (1).yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  2094,
+                      "sha256":  "4620E68A8A59A1E89AACF96524FF717877EAC2555F0176CDAEAB9F244AB0D50B",
+                      "modified":  "2026-05-10T17:41:01"
+                  },
+                  {
+                      "id":  "02_modules_yaml_ora_core_profile_master_normalized_yaml",
+                      "path":  "02_MODULES/yaml/ORA_CORE_PROFILE_MASTER_NORMALIZED.yaml",
+                      "name":  "ORA_CORE_PROFILE_MASTER_NORMALIZED.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  2088,
+                      "sha256":  "A05677BCDDE8C62A4038D9819522BCF3EEB0967E4C9A31299E0D7172F080A24E",
+                      "modified":  "2026-05-10T17:39:03"
+                  },
+                  {
+                      "id":  "02_modules_yaml_ora_last_three_assets_yaml",
+                      "path":  "02_MODULES/yaml/ORA_LAST_THREE_ASSETS.yaml",
+                      "name":  "ORA_LAST_THREE_ASSETS.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  5261,
+                      "sha256":  "5836029E38F31725EB235088D2B2CE273F02A21844143D76D5892C04ADF41E25",
+                      "modified":  "2026-05-10T17:40:43"
+                  },
+                  {
+                      "id":  "02_modules_yaml_rosetta_essence_rag_governor_v1_1_yaml",
+                      "path":  "02_MODULES/yaml/Rosetta-Essence-RAG-Governor-v1_1.yaml",
+                      "name":  "Rosetta-Essence-RAG-Governor-v1_1.yaml",
+                      "extension":  ".yaml",
+                      "kind":  "module",
+                      "bytes":  3458,
+                      "sha256":  "002830C344E03B6B67EA8A061788195D5B609A36AB4B9A4C6FFCF22429E9A318",
+                      "modified":  "2026-05-10T21:55:30"
+                  },
+                  {
+                      "id":  "04_product_strategy_audit_et_proposition_plateforme_ora_pro_md",
+                      "path":  "04_PRODUCT_STRATEGY/AUDIT_ET_PROPOSITION_PLATEFORME_ORA_PRO.md",
+                      "name":  "AUDIT_ET_PROPOSITION_PLATEFORME_ORA_PRO.md",
+                      "extension":  ".md",
+                      "kind":  "product_strategy",
+                      "bytes":  13085,
+                      "sha256":  "8318163F6F8C7273BF0F809D18DC342B56E562D71C0D0FCB89F7AF35F80E9EEE",
+                      "modified":  "2026-05-12T11:12:54"
+                  },
+                  {
+                      "id":  "04_product_strategy_product_locks_md",
+                      "path":  "04_PRODUCT_STRATEGY/PRODUCT_LOCKS.md",
+                      "name":  "PRODUCT_LOCKS.md",
+                      "extension":  ".md",
+                      "kind":  "product_strategy",
+                      "bytes":  1130,
+                      "sha256":  "9BC6128C4B13D78E4D62A40CF44FB4899B4D58241F2E566E264AD43A4B177C2C",
+                      "modified":  "2026-05-12T10:50:38"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_env_example",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/.env.example",
+                      "name":  ".env.example",
+                      "extension":  ".example",
+                      "kind":  "platform_base",
+                      "bytes":  169,
+                      "sha256":  "39A38B387507A92673A7CF9DBAE71D29F1202AB66B6FD0F5049460E997760A71",
+                      "modified":  "2026-05-12T10:50:39"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_academy_courses_getting_started_lesson_001_md",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/academy/courses/getting-started/lesson-001.md",
+                      "name":  "lesson-001.md",
+                      "extension":  ".md",
+                      "kind":  "platform_base",
+                      "bytes":  313,
+                      "sha256":  "62CCCFA6A61719033C3A9C406E47B2069E60C552E28CDBA36007C1C1F8015CFF",
+                      "modified":  "2026-05-12T10:50:41"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_admin_readme_md",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/admin/README.md",
+                      "name":  "README.md",
+                      "extension":  ".md",
+                      "kind":  "platform_base",
+                      "bytes":  196,
+                      "sha256":  "9F6D5C0FF31DA8C61237C5DF52AE03431FC489A0F9669EFFBC839778765B03DA",
+                      "modified":  "2026-05-12T10:50:42"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_chatbot_flows_onboarding_start_json",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/chatbot/flows/onboarding_start.json",
+                      "name":  "onboarding_start.json",
+                      "extension":  ".json",
+                      "kind":  "platform_base",
+                      "bytes":  559,
+                      "sha256":  "48CF5787AA25798D8DBA33FC59F566CCD4F0CEB2FB2777002F6C0D82A4703A21",
+                      "modified":  "2026-05-12T10:50:40"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_chatbot_intents_welcome_json",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/chatbot/intents/welcome.json",
+                      "name":  "welcome.json",
+                      "extension":  ".json",
+                      "kind":  "platform_base",
+                      "bytes":  226,
+                      "sha256":  "2BE2A6ACE635DBC4ACB8F53C91C67779EB0B9E5DFE3B475D0E3A38DCE855E9EA",
+                      "modified":  "2026-05-12T10:50:40"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_chatbot_responses_welcome_default_md",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/chatbot/responses/welcome_default.md",
+                      "name":  "welcome_default.md",
+                      "extension":  ".md",
+                      "kind":  "platform_base",
+                      "bytes":  61,
+                      "sha256":  "3FB8702334BA65BB6FD4326CC9EB587663BB98371844C5A16590C3F0D8973E15",
+                      "modified":  "2026-05-12T10:50:40"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_client_readme_md",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/client/README.md",
+                      "name":  "README.md",
+                      "extension":  ".md",
+                      "kind":  "platform_base",
+                      "bytes":  178,
+                      "sha256":  "B248F7D1BCD979E339ACC66A169831059096C4BFA3053678392459DD643C889F",
+                      "modified":  "2026-05-12T10:50:42"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_docs_publication_checklist_md",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/docs/PUBLICATION_CHECKLIST.md",
+                      "name":  "PUBLICATION_CHECKLIST.md",
+                      "extension":  ".md",
+                      "kind":  "platform_base",
+                      "bytes":  383,
+                      "sha256":  "C2529A29136CF172B434080E681DD96C9E4ACA9692B400CC76C9B311E8CC6239",
+                      "modified":  "2026-05-12T10:50:39"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_docs_security_md",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/docs/SECURITY.md",
+                      "name":  "SECURITY.md",
+                      "extension":  ".md",
+                      "kind":  "platform_base",
+                      "bytes":  470,
+                      "sha256":  "B28019F0AECB83E9BC671E60362E19B9246A13953CAC09E2A4EB9225C27690BE",
+                      "modified":  "2026-05-12T10:50:39"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_forge_blueprints_module_minimal_json",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/forge/blueprints/module_minimal.json",
+                      "name":  "module_minimal.json",
+                      "extension":  ".json",
+                      "kind":  "platform_base",
+                      "bytes":  203,
+                      "sha256":  "AA974935BD831E361FFEB1CC5F464A3F897FCC08003BAF9E21ADBDA28EBA6A8F",
+                      "modified":  "2026-05-12T10:50:41"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_package_json",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/package.json",
+                      "name":  "package.json",
+                      "extension":  ".json",
+                      "kind":  "platform_base",
+                      "bytes":  340,
+                      "sha256":  "4F55B5F5878D4B74B11900E27A9C17CF3BF598E4EE6524D6BA7826219E6BDF9B",
+                      "modified":  "2026-05-12T10:52:05"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_readme_md",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/README.md",
+                      "name":  "README.md",
+                      "extension":  ".md",
+                      "kind":  "platform_base",
+                      "bytes":  1011,
+                      "sha256":  "6960AD1E36ED3F457D127474E4CE1DC2922B6072B21748BB02A3861AE1E9D7AE",
+                      "modified":  "2026-05-12T10:50:39"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_schemas_module_schema_json",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/schemas/module.schema.json",
+                      "name":  "module.schema.json",
+                      "extension":  ".json",
+                      "kind":  "platform_base",
+                      "bytes":  966,
+                      "sha256":  "E37E5C4472B49CCE77F14DD66B7A2C17F9013B3D5C80CB565C751A776B23162F",
+                      "modified":  "2026-05-12T10:50:41"
+                  },
+                  {
+                      "id":  "06_ora_pro_platform_base_scripts_check_json_mjs",
+                      "path":  "06_ORA_PRO_PLATFORM_BASE/scripts/check-json.mjs",
+                      "name":  "check-json.mjs",
+                      "extension":  ".mjs",
+                      "kind":  "platform_base",
+                      "bytes":  911,
+                      "sha256":  "8E77D29C8B2D865E85040A403F04CF8F3AB2CB825B0C76B523EC36E6D3B1D46B",
+                      "modified":  "2026-05-12T10:52:41"
+                  },
+                  {
+                      "id":  "07_ai_studio_bridge_ai_studio_build_prompt_md",
+                      "path":  "07_AI_STUDIO_BRIDGE/AI_STUDIO_BUILD_PROMPT.md",
+                      "name":  "AI_STUDIO_BUILD_PROMPT.md",
+                      "extension":  ".md",
+                      "kind":  "ai_studio_bridge",
+                      "bytes":  4048,
+                      "sha256":  "23E8B089002DBA296B7E54554A46ADE41EE0CB516E0508AEB5CC9DFB1C191D7B",
+                      "modified":  "2026-05-12T11:12:54"
+                  },
+                  {
+                      "id":  "07_ai_studio_bridge_ai_studio_session_md",
+                      "path":  "07_AI_STUDIO_BRIDGE/AI_STUDIO_SESSION.md",
+                      "name":  "AI_STUDIO_SESSION.md",
+                      "extension":  ".md",
+                      "kind":  "ai_studio_bridge",
+                      "bytes":  747,
+                      "sha256":  "B4B0177A8684FEA5BA60ACB47498425CC262E6C182C234B8057719B6CE558231",
+                      "modified":  "2026-05-12T11:20:31"
+                  },
+                  {
+                      "id":  "07_ai_studio_bridge_readme_md",
+                      "path":  "07_AI_STUDIO_BRIDGE/README.md",
+                      "name":  "README.md",
+                      "extension":  ".md",
+                      "kind":  "ai_studio_bridge",
+                      "bytes":  559,
+                      "sha256":  "E0D74972CFA64A5B230FE7A7601EDD89198A88356149EBBF5B7D763D8E323252",
+                      "modified":  "2026-05-12T11:12:54"
+                  },
+                  {
+                      "id":  "readme_organisation_md",
+                      "path":  "README_ORGANISATION.md",
+                      "name":  "README_ORGANISATION.md",
+                      "extension":  ".md",
+                      "kind":  "public_asset",
+                      "bytes":  1433,
+                      "sha256":  "96AF24F6955A841EAE9C3B979CBA9F6015DC5731A819081E2CD8286B7606EFA5",
+                      "modified":  "2026-05-12T11:12:54"
+                  }
+              ]
+}

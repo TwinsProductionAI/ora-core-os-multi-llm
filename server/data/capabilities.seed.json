@@ -1,0 +1,110 @@
+[
+  {
+    "id": "cap_foundation",
+    "label": "ORA Core Foundation",
+    "description": "Socle de base ORA : RIME, PRIMORDIA, ECOTWIN, ESSENCE_ME, GPL, ORA_COMPILER, HALO. (Pack obligatoire injecté)",
+    "category": "Core",
+    "mappedModules": ["m5", "m22", "m3", "m29", "m4", "m13", "m6"],
+    "requiredPlan": "FREE",
+    "keywords": ["foundation", "core", "base", "logic", "truth", "audit"]
+  },
+  {
+    "id": "reliability",
+    "label": "Reliability",
+    "description": "Assure la fiabilité et la précision du flux sémantique via RIME et ECOTWIN.",
+    "category": "Core",
+    "mappedModules": ["m5", "m3"],
+    "requiredPlan": "FREE",
+    "keywords": ["reliability", "precision", "rime", "ecotwin"]
+  },
+  {
+    "id": "ambiguity-reduction",
+    "label": "Ambiguity Reduction",
+    "description": "Réduit les ambiguïtés et clarifie le raisonnement en séparant faits et hypothèses.",
+    "category": "Core",
+    "mappedModules": ["m5", "m4"],
+    "requiredPlan": "FREE",
+    "keywords": ["clarity", "ambiguity", "rime", "gpl"]
+  },
+  {
+    "id": "guided-creativity",
+    "label": "Guided Creativity",
+    "description": "Créativité contrôlée sous contraintes sémantiques strictes.",
+    "category": "Exotic",
+    "mappedModules": ["m26"],
+    "requiredPlan": "CREATOR",
+    "keywords": ["creative", "crea120"]
+  },
+  {
+    "id": "professional-structure",
+    "label": "Professional Structure",
+    "description": "Architecture de profil et structuration professionnelle pour experts.",
+    "category": "Integration",
+    "mappedModules": ["m4", "m14"],
+    "requiredPlan": "PRO",
+    "keywords": ["structure", "gpl", "arch-plus"]
+  },
+  {
+    "id": "strong-governance",
+    "label": "Strong Governance",
+    "description": "Veto de vérité absolue et contrôle de sécurité PRIMORDIA.",
+    "category": "Core",
+    "mappedModules": ["m22"],
+    "requiredPlan": "FREE",
+    "keywords": ["governance", "primordia", "truth"]
+  },
+  {
+    "id": "project-export",
+    "label": "Project Export",
+    "description": "Compilation et export complet des artefacts projet (GPL + Compiler).",
+    "category": "Core",
+    "mappedModules": ["m4", "m13"],
+    "requiredPlan": "FREE",
+    "keywords": ["export", "compiler", "gpl"]
+  },
+  {
+    "id": "consultant-mode",
+    "label": "Consultant Mode",
+    "description": "Analyse stratégique et arbitrage d'impact via Aura MxB.",
+    "category": "Reinforcement",
+    "mappedModules": ["m25"],
+    "requiredPlan": "CREATOR",
+    "keywords": ["consultant", "strategy", "aura-mxb"]
+  },
+  {
+    "id": "sme-mode",
+    "label": "SME Mode",
+    "description": "Expertise métier et adaptation commerciale avancée.",
+    "category": "Reinforcement",
+    "mappedModules": ["m25", "m4", "m28"],
+    "requiredPlan": "FREE",
+    "keywords": ["sme", "business", "soncas", "gpl"]
+  },
+  {
+    "id": "visual-pipeline",
+    "label": "Visual Pipeline",
+    "description": "Gouvernance des flux visuels, manga et storyboard.",
+    "category": "Integration",
+    "mappedModules": ["m27"],
+    "requiredPlan": "PRO",
+    "keywords": ["visual", "vg-plus"]
+  },
+  {
+    "id": "governance-audit",
+    "label": "Governance Audit",
+    "description": "Audit ledger hashable et trace complète des essences.",
+    "category": "Reinforcement",
+    "mappedModules": ["m6"],
+    "requiredPlan": "FREE",
+    "keywords": ["audit", "halo", "trace"]
+  },
+  {
+    "id": "decision-compression",
+    "label": "Decision Compression",
+    "description": "Moteur anti-boucle : compression des incertitudes pour forcer l'action minimale utile.",
+    "category": "Reinforcement",
+    "mappedModules": ["m29"],
+    "requiredPlan": "FREE",
+    "keywords": ["decision", "compression", "essence-me"]
+  }
+]

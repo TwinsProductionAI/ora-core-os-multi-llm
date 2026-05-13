@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-bg: #0A0A0A;
+  --color-brand-sidebar: #0F0F11;
+  --color-brand-panel: #050505;
+  --color-brand-border: #1E293B; /* slate-800 */
+  --color-brand-accent: #F97316; /* orange-500 */
+}
+
+@layer base {
+  body {
+    @apply antialiased text-slate-100 bg-brand-bg;
+  }
+}
+
+.light-theme {
+  filter: invert(1) hue-rotate(180deg);
+}
+.light-theme img, .light-theme video, .light-theme svg.lucide {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+@layer components {
+  .high-density-card {
+    @apply bg-slate-900 border border-brand-border rounded-2xl p-4 transition-all;
+  }
+  
+  .ora-indicator {
+    @apply w-3 h-3 rounded-full bg-brand-accent shadow-[0_0_8px_rgba(249,115,22,0.6)];
+  }
+
+  .interactive-border {
+    @apply border border-brand-border hover:border-brand-accent/50 transition-colors;
+  }
+}
+
