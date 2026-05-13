@@ -38,3 +38,12 @@ Le depot contient un Blueprint Render dans `render.yaml`.
 3. Definir `ADMIN_PASSCODE` dans Render, sans le commiter.
 4. Optionnel: definir `APP_URL` avec l'URL publique Render apres creation du service.
 5. Appliquer le Blueprint et verifier `/health`.
+
+## Deploy Render Docker
+
+Le depot contient aussi un `Dockerfile` pour les services Render existants configures en runtime Docker.
+
+- Dockerfile path: `./Dockerfile`
+- Docker build context: `.`
+- Health check path: `/health`
+- Port: lu depuis `PORT`, avec fallback local `3001`
