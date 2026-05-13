@@ -27,3 +27,14 @@ Prerequis: Node.js.
 - `GET /api/install-recipes`
 
 Source DB: `server/data/ora-agent-db`.
+
+## Deploy Render
+
+Le depot contient un Blueprint Render dans `render.yaml`.
+
+1. Ouvrir le Blueprint:
+   `https://dashboard.render.com/blueprint/new?repo=https://github.com/TwinsProductionAI/ora-core-os-multi-llm`
+2. Garder le service `ora-core-os-multi-llm`.
+3. Definir `ADMIN_PASSCODE` dans Render, sans le commiter.
+4. Optionnel: definir `APP_URL` avec l'URL publique Render apres creation du service.
+5. Appliquer le Blueprint et verifier `/health`.

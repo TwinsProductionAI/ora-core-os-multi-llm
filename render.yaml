@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ora-core-os-multi-llm
+    runtime: node
+    plan: free
+    branch: main
+    autoDeploy: true
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: ADMIN_PASSCODE
+        sync: false
